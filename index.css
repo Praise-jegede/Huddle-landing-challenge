@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
     font-family:serif;
 }
 header{
@@ -43,7 +43,7 @@ header button{
     cursor: pointer;
 }
 .hero-img{
-    width: 800px;
+    width: 100%;
     margin-top: 3rem;
 }
 .hero-img img{
@@ -131,6 +131,7 @@ footer{
    gap: 2rem;
    line-height: 1.3rem;
    color: rgba(255, 255, 255, 0.665);
+   width: ;
 }
 .huddle, .newsletter{
     width: 30%;
@@ -199,7 +200,7 @@ form{
         height: 1rem;
     }
     header button{
-        width: 75px;
+        width: 20%;
         display: flex;
         flex-wrap:nowrap;
         font-size: 1rem;
@@ -234,7 +235,6 @@ form{
     .flowing-image{
        display: flex;
        justify-content: center;
-
     }
     .grow-text, .users-text, .flow-text{
         margin-top: 2rem;
