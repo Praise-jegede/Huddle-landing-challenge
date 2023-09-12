@@ -176,7 +176,7 @@ form{
     color: white;
 }
 @media (max-width: 400px){
-    body{
+    .body{
         margin: auto;
         padding: 0;
     }
@@ -191,7 +191,7 @@ form{
     }
     header{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 1rem 1rem 0rem 1rem;
     }
     header img{
@@ -271,11 +271,15 @@ form{
     .phone,.mail{
         display: flex;
         width: 200px;
+        font-size: 0.8rem;
+       padding: 2rem 0rem 0rem 0rem;
+    }
+    .mail{
+        padding: 0;
     }
     .phone img,.mail img{
-        padding: 1rem 1rem 1rem 0rem;
-        width: 30px;
-        height: 3rem;
+        padding: 1rem 1rem;
+        width: 50px;
     }
     .phone p, .mail p{
         padding:1rem 0rem ;
