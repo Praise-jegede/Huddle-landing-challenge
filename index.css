@@ -192,7 +192,7 @@ form{
     header{
         display: flex;
         justify-content: space-between;
-        padding: 1rem;
+        padding: 1rem 1rem 0rem 1rem;
     }
     header button{
         width: 80px;
@@ -224,7 +224,7 @@ form{
            flex-direction: column-reverse;
     }
     .Grow-together img,.flowing-image img, .users-image img{
-        width: 300px;
+        width: 250px;
     }
     .flowing-image{
        display: flex;
@@ -273,3 +273,4 @@ form{
     .icons{
         width: 40%;
     }
+}
